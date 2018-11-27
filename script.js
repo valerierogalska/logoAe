@@ -1,6 +1,6 @@
 var animation = bodymovin.loadAnimation({
   container: document.getElementById('lottie'), // Required
-  path: 'http://valerierogalska.com/data.json', // Required
+  path: 'https://valerierogalska.github.io/logoAe/data.json', // Required
   renderer: 'svg', // Required
   loop: true, // Optional
   autoplay: true, // Optional
