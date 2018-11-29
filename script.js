@@ -12,5 +12,5 @@ animationContainer.addEventListener('mouseenter', function () {
   animation.play();
 });
 animationContainer.addEventListener("mouseleave", function () {
-  animation.gotoAndStop(0);
+animation.loop = false;
 });
