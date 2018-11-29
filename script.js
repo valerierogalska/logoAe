@@ -7,7 +7,9 @@ var animation = bodymovin.loadAnimation({
   name: "Denial Logo",
 });
 
+var animate;
+animate = bodymovin.loadAnimation(params);
 var selectedContainer = document.querySelector('#lottie');
 selectedContainer.addEventListener('mouseover', function() {
-  anim.play();
+  animate.play();
 });
