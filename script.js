@@ -10,6 +10,7 @@ var animation = bodymovin.loadAnimation({
 });
 animationContainer.addEventListener('mouseenter', function () {
   animation.play();
+  animation.loop = true;
 });
 animationContainer.addEventListener("mouseleave", function () {
 animation.loop = false;
